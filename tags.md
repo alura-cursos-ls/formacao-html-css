@@ -47,4 +47,5 @@ Marcar como itálico
 ### Atributos Genéricos:
 
 - style  
-Adiciona estilização(css) da página através do html
+Adiciona estilização(css) da página através do html  
+(css-inline)
