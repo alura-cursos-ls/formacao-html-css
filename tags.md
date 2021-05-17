@@ -69,6 +69,10 @@ Marcar como itálico
 
 - li  
   Item da lista
+
+- div  
+  Bloco de conteúdo
+
 ### Atributos Genéricos:
 
 - style  
