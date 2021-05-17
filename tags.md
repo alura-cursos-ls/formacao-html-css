@@ -6,32 +6,32 @@ Estrutura da tag:
 ```
 Tipos de tag: conteúdo (c) e informação (i)
 
-- !DOCTYPE [i]  
+- **!DOCTYPE** [i]  
 Definição da versão do html que estamos utilizando através do atributo html para que o browser a interprete
 
-- html [c]  
+- **html** [c]  
 Para determinar tudo que será definido como html na página que será apresentada.  
 Atributos:  
 lang = definição da lingagem que está utilizando na página, isso facilitará quando oferecer tradução automatica.
 
-- meta 
+- **meta** 
 Passa informações para o navegador.   
 Atributos:  
 charset = definição do conjunto de caracteres da página. Geralente na America utiliza-se propriedade UTF-8
 
-- title  
+- **title**  
 Altera o título da página
 
-- head  
+- **head**  
 Informações que serão passadas para o navegador, como configurações e importações
 
-- body  
+- **body**  
 Informações que serão exibidas no navegador (conteúdo)
 
-- style  
+- **style**  
 Inserção do css diretamente pelo html.
 
-- link  
+- **link**  
   Ligação entre documentos  
   Atributos:  
   rel = responsável por especificar o tipo de relacionamento.  
@@ -40,41 +40,44 @@ Inserção do css diretamente pelo html.
   ```html
   <link rel="stylesheet" href="style.css">
   ```
-- H1 - H5 [c]:  
+- **H1 - H5** [c]:  
     Títulos das páginas  
     Exemplo: 
     ```html
     <h1> Título Principal </h1>
     ```
 
-- p [c]
+- **p** [c]
 Paragrafos
 
-- strong (para dar importância à determinado conteudo) [c]  
+- **strong** (para dar importância à determinado conteudo) [c]  
 Marcar com negrito.
 
-- em [c]  
+- **em** [c]  
 Marcar como itálico
 
-- img  
+- **img**  
   carregar imagem diretamente no html  
   Atributos:  
   src = caminho da imagem.
 
-- ul  
+- **ul**  
   Lista não ordenada
 
-- ol  
+- **ol**  
   Lista ordenada
 
-- li  
+- **li**  
   Item da lista
 
-- div  
+- **div**  
   Bloco de conteúdo
+
+- **header**  
+  cabeçalho da página
 
 ### Atributos Genéricos:
 
-- style  
+- **style**  
 Adiciona estilização(css) da página através do html  
 (css-inline)
