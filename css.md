@@ -54,8 +54,11 @@ father-name child-name {
 - padding ou padding-direcao  
   Espaçamento interno das bordas do elemento.
 
-- margin ou margin-direcao
+- margin ou margin-direcao  
   Espaçamento externo das bordas do elemento.
+
+- font-style  
+  Estilos das letras.
 
 ## Dicas
 - Sempre organizar o CSS de forma em que seja um reflexo do HTML em casos de acrescímos de estilos em tags. Por exemplo:  

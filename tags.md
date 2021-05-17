@@ -61,6 +61,14 @@ Marcar como itálico
   Atributos:  
   src = caminho da imagem.
 
+- ul  
+  Lista não ordenada
+
+- ol  
+  Lista ordenada
+
+- li  
+  Item da lista
 ### Atributos Genéricos:
 
 - style  
