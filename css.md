@@ -9,6 +9,10 @@ tag-name {
     property: value;
 }
 
+#identificacao-id {
+    property: value;
+}
+
 /* Afetará somente child-name que estiverem associados ao father-name */
 father-name child-name {
     proprety: value;
