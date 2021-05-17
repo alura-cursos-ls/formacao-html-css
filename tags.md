@@ -50,11 +50,16 @@ Inserção do css diretamente pelo html.
 - p [c]
 Paragrafos
 
-- strong (para dar importância à determinado conteudo) [c]
-Marcar com negrito
+- strong (para dar importância à determinado conteudo) [c]  
+Marcar com negrito.
 
-- em [c]
+- em [c]  
 Marcar como itálico
+
+- img  
+  carregar imagem diretamente no html  
+  Atributos:  
+  src = caminho da imagem.
 
 ### Atributos Genéricos:
 
