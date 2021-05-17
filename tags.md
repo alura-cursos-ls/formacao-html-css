@@ -28,12 +28,24 @@ Informações que serão passadas para o navegador, como configurações e impor
 - body  
 Informações que serão exibidas no navegador (conteúdo)
 
+- style  
+Inserção do css diretamente pelo html.
+
+- link  
+  Ligação entre documentos  
+  Atributos:  
+  rel = responsável por especificar o tipo de relacionamento.  
+  href = caminho do arquivo que será referenciado  
+  Exemplo:  
+  ```html
+  <link rel="stylesheet" href="style.css">
+  ```
 - H1 - H5 [c]:  
-    Títulos das páginas
-Exemplo: 
-```html
+    Títulos das páginas  
+    Exemplo: 
+    ```html
     <h1> Título Principal </h1>
-```
+    ```
 
 - p [c]
 Paragrafos
