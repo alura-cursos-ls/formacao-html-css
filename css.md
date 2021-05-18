@@ -69,6 +69,23 @@ father-name child-name {
 - **vertical-align**  
   Ajusta o inicio dos elementos na vertical, por padrão são fixados no bottom. Podendo variar entre top, center e bottom.
 
+- **font-size**  
+  especifica o tamanho da fonte
+
+- **text-transform**  
+  Modifica todos os caracteres conforme especificado, poden ser lowercase, uppercase e capitalize.
+
+- **font-weight**  
+  Especifica o peso da fonte
+
+- **text-decoration**  
+  Decoração do texto
+
+- **position**  
+  Tipo de posição que o elemento pode estar apresentado na tela  
+  *absolute*: posição livre
+  *relative*: posição relativa ao outro elemento. 
+
 ## Dicas
 - Sempre organizar o CSS de forma em que seja um reflexo do HTML em casos de acrescímos de estilos em tags. Por exemplo:  
   ```css

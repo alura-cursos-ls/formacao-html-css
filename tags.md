@@ -74,7 +74,12 @@ Marcar como itálico
   Bloco de conteúdo
 
 - **header**  
-  cabeçalho da página
+  Cabeçalho da página
+
+- **a**  
+  Ancora para um link  
+  Atributos:  
+  href = endereço de referência
 
 ### Atributos Genéricos:
 
