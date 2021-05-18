@@ -86,6 +86,9 @@ father-name child-name {
   *absolute*: posição livre
   *relative*: posição relativa ao outro elemento. 
 
+- **left | right | top | bottom**  
+  Posição quando o elemento for relativo (?)
+
 ## Dicas
 - Sempre organizar o CSS de forma em que seja um reflexo do HTML em casos de acrescímos de estilos em tags. Por exemplo:  
   ```css
