@@ -67,13 +67,13 @@ father-name child-name {
   *inline-block*: permite ambos
 
 - **vertical-align**  
-  Ajusta o inicio dos elementos na vertical, por padrão são fixados no bottom. Podendo variar entre top, center e bottom.
+  Ajusta o inicio dos elementos na vertical, por padrão são fixados no bottom quando display estiver em inline-block. Podendo variar entre top, center e bottom.
 
 - **font-size**  
   especifica o tamanho da fonte
 
 - **text-transform**  
-  Modifica todos os caracteres conforme especificado, poden ser lowercase, uppercase e capitalize.
+Modifica todos os caracteres conforme especificado, poden ser lowercase, uppercase e capitalize.
 
 - **font-weight**  
   Especifica o peso da fonte
@@ -88,6 +88,12 @@ father-name child-name {
 
 - **left | right | top | bottom**  
   Posição quando o elemento for relativo (?)
+
+- **box-sizing**  
+  Quando você mexe com pixel e percentual no mesmo elemento, para avitar que some ambos é necessário utilizar border-box
+
+- **boder**
+   maneira simplificada de desenhar borda sendo a sequencia de tamanho, estilo e cor.  
 
 ## Dicas
 - Sempre organizar o CSS de forma em que seja um reflexo do HTML em casos de acrescímos de estilos em tags. Por exemplo:  
